@@ -1,4 +1,4 @@
-# AI_ML_DJ
+# Marathon Simulator
 This project simulates how I would perform on famous marathon routes (e.g., Boston, NYC) using my personal Strava data. The simulation models pace changes over varying terrain based on my historical running performance.
 
 Integrated the Strava API to pull my recent activity data, including pace, elevation gain, and distance.
