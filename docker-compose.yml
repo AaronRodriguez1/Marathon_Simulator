@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:15
+    container_name: mldj_postgres
+    environment:
+      POSTGRES_USER: mldj
+      POSTGRES_PASSWORD: mldj
+      POSTGRES_DB: mldj
+    ports:
+      - "5432:5432"
+    volumes:
+      - mldj_pgdata:/var/lib/postgresql/data
+volumes:
+  mldj_pgdata:
